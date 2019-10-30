@@ -20,10 +20,11 @@ import static org.junit.Assert.assertTrue;
 /**
  * @Description  :  这个Unit4的案例
  * 单元测试中的方法就是测试用例，尽量不要有顺序的依赖
+ * @FixMethodOrder(MethodSorters.NAME_ASCENDING) 这个测试用例按照asc码排序
  * @author       :  liujiangbo
  * @Creation Date:  2019-10-21 20:21
  */
-
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestJunit4Demo {
     @BeforeClass
     public static void beforeAlltestclass(){
