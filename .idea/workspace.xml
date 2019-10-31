@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f1fe09-c7d2-4db6-9d20-cfdc676a6ce9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mock/DivisionTest1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mock/mocktest.java" afterPath="$PROJECT_DIR$/src/main/java/mock/Division.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mock/mocktest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/param/TestDataDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/xUnit/param/TestDataDriver.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -618,7 +614,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572440065995</updated>
-      <workItem from="1572440073669" duration="14907000" />
+      <workItem from="1572440073669" duration="15095000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1572507076597</created>
@@ -627,7 +623,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572507076598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="111">
+      <created>1572507178607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572507178607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="111">
+      <created>1572507199692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572507199692</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -663,7 +673,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14907000" />
+    <option name="totallyTimeSpent" value="15095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
