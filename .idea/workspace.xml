@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="56f1fe09-c7d2-4db6-9d20-cfdc676a6ce9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mock/MockTest.java" afterPath="$PROJECT_DIR$/src/test/java/mock/MockTest.java" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mock/DivisionTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/mock/DivisionTest1.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -628,7 +627,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572440065995</updated>
       <workItem from="1572440073669" duration="17833000" />
-      <workItem from="1572512572665" duration="11678000" />
+      <workItem from="1572512572665" duration="11723000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1572507076597</created>
@@ -686,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572592287882</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mockito">
+      <created>1572592467226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572592467226</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29511000" />
+    <option name="totallyTimeSpent" value="29556000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
