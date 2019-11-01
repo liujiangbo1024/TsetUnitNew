@@ -6,6 +6,9 @@ import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 /**
  * @author :  liujiangbo
@@ -19,7 +22,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class DivisionTest1 {
 
     Division division=new Division();
-
+    Division2 division2=new Division2();
     @Before
     public void setUp() throws Exception {
     }
@@ -50,4 +53,20 @@ public class DivisionTest1 {
     public void dividwitAG100() {
         assertThat(division.divid(2000,2),equalTo(null));
     }*/
+
+/* when(mockDivision.divid(0,0)).thenReturn(11); mock*/
+   @Test
+    public void divid2(){
+
+       assertThat(division2.divid2(100,10,5,division),equalTo(2));
+
+       Division mockDivision=mock(Division.class);
+      /* when(mockDivision.divid(0,0)).thenReturn(11);
+       assertThat(division2.divid2(0,0,5,mockDivision),equalTo(0));*/
+
+      /*mock方法mockDivision后，无论入参是什么，返回值都是 11,为了覆盖方法中的if代码*/
+       when(mockDivision.divid(anyInt(),anyInt())).thenReturn(11);
+       assertThat(division2.divid2(1,2,5,mockDivision),equalTo(0));
+   }
+
 }
