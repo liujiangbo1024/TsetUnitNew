@@ -43,6 +43,7 @@ public class MockTest {
         list1.add("coco1");
 
         when(list1.size()).thenReturn(5);
+        int a=2;
         assertThat(list1.size(),equalTo(5));
     }
 
