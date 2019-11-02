@@ -47,7 +47,8 @@ public class TestWeWork {
     }
 
     @Test
-    public void testdeletebatch(){
+    //删除列表页面的的成员，通过复选框删除
+    public void testdeleteCurrentPage(){
         try {
             app.toContact().deleteCurrentPage();
         } catch (InterruptedException e) {

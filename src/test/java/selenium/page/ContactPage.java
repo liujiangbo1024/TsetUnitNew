@@ -15,7 +15,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 /**
- * @Description  :  关于通讯录页面的，添加 ，删除操作
+ * @Description  :  关于通讯录页面的，添加 ，删除操作，批量导入
  * @author       :  liujiangbo
  * @Creation Date:  2019-11-02 9:44
  */
@@ -51,14 +51,21 @@ public class ContactPage extends BasePage {
     //3-通过复选框删除成员，点击了复选框会页面会发生变化
     //css=.member_colRight_memberTable_tr_Hover .ww_checkbox
     public ContactPage deleteCurrentPage() throws InterruptedException {
-        //先确认可以点击的，因为样式发生变化
+
+      /*  Select select=new Select(findElement(By.cssSelector(".ww_checkbox")));
+        select.getFirstSelectedOption().click();
+        select.selectByIndex(0);*/
+
+        //先确认可以点击的，因为样式发生变化，要WebDriverWait等待元素出来可点击
         Thread.sleep(3000);
         waitClickable(By.cssSelector(".ww_checkbox"), 3);
         List<WebElement> elements = driver.findElements(By.cssSelector(".ww_checkbox"));
+        System.out.println("列表长度"+elements.size());
         for (int i = 1; i < 3; i++) {
             System.out.println(i);
-            elements.get(i).click();
+            elements.get(i).click();//选出其中一个点击
             try {
+                //点击的动态效果，所以每次都等待500ms
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -70,7 +77,7 @@ public class ContactPage extends BasePage {
     }
     // css=.ww_operationBar:nth-child(1) .ww_btn_PartDropdown_left
     //failed: waiting for visibility of element located by By.partialLinkText:ww_btn_PartDropdown_left (tried for 5 second(s) with 500 milliseconds interval)
-    //4-批量导入导出
+    //4-批量导入
     public void ImportFromfile(){
         try {
             Thread.sleep(3000);
