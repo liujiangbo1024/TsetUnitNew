@@ -69,4 +69,18 @@ public class DivisionTest1 {
        assertThat(division2.divid2(1,2,5,mockDivision),equalTo(0));
    }
 
+    //部分mock，divid这个mock，divid3仍走正常逻辑，thenCallRealMethod
+   @Test
+    public void divid3(){
+       Division2 mockDivision2=mock(Division2.class);
+
+       when(mockDivision2.divid(anyInt(),anyInt())).thenReturn(10);
+       //部分mock
+       when(mockDivision2.divid3(anyInt(),anyInt(),anyInt())).thenCallRealMethod();
+       assertThat(mockDivision2.divid3(0,0,5),equalTo(2));
+
+       when(mockDivision2.divid(anyInt(),anyInt())).thenReturn(100);
+       assertThat(mockDivision2.divid3(0,0,5),equalTo(0));
+
+   }
 }
