@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f1fe09-c7d2-4db6-9d20-cfdc676a6ce9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/Broadcast.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/selenium/test1/FirstSearchSelenium.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/DefaultSuiteTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mock/Division2.java" afterPath="$PROJECT_DIR$/src/main/java/mock/Division2.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mock/DivisionTest1.java" afterPath="$PROJECT_DIR$/src/test/java/mock/DivisionTest1.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/mock/Division.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/mock/Division2.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mock/DivisionTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/mock/DivisionTest1.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mock/MockTest.class" afterPath="$PROJECT_DIR$/target/test-classes/mock/MockTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/test1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/testunitnew.iml" afterPath="$PROJECT_DIR$/testunitnew.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -706,7 +674,7 @@
       <workItem from="1572512572665" duration="12647000" />
       <workItem from="1572593432412" duration="4761000" />
       <workItem from="1572619458450" duration="5290000" />
-      <workItem from="1572661129348" duration="29538000" />
+      <workItem from="1572661129348" duration="29606000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1572507076597</created>
@@ -778,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572592509601</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="selenium add">
+      <created>1572704352339</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572704352339</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -814,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70069000" />
+    <option name="totallyTimeSpent" value="70137000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -899,7 +874,8 @@
     <MESSAGE value="jacoco" />
     <MESSAGE value="jacoco2" />
     <MESSAGE value="mockito" />
-    <option name="LAST_COMMIT_MESSAGE" value="mockito" />
+    <MESSAGE value="selenium add" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
