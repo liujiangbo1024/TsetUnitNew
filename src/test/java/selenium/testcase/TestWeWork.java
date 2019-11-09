@@ -15,7 +15,8 @@ import org.junit.Test;
 import selenium.page.App;
 
 
-/*登录微信企业号
+/*测试那个微信通信录的自动化测试
+登录微信企业号
 * 1.登录验证码的解决，拿到cookie，主要是里面的sessionid，当cookie过期的话重新获取一个cookie
 * 2.隐式等待
 * 3.每个那个测试用例保持独立，case之间没有依赖*/
@@ -56,15 +57,10 @@ public class TestWeWork {
         }
     }
 
-/*    @Test
-    public void  importFromFile(){
-        app.toContact().ImportFromfile();
-    }*/
-/*
     @Test
-    public void send(){
-        app.toGroupMessage().send("公告","刘江波","新快递来了","你有新快递来了","快递通知","auth");
-    }*/
+    public void  importFromFile(){
+        app.toContact().ImportFromFile();
+    }
 
     @AfterClass
     //每次执行完case，需要退出

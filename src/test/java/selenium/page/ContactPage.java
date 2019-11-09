@@ -15,7 +15,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 /**
- * @Description  :  关于通讯录页面的，添加 ，删除操作，批量导入
+ * @Description  :  通讯录页面封装--关于通讯录页面的，添加 ，删除操作，批量导入
  * @author       :  liujiangbo
  * @Creation Date:  2019-11-02 9:44
  */
@@ -33,7 +33,7 @@ public class ContactPage extends BasePage {
     //2-查询出成员，删除成员 动态加载，删除或者确认没找到
     //找不到，可以添加延迟，
     public ContactPage delete(String keyword) {
-        //每次输入前清理一下
+        //每次输入前清理一下，再次搜索
         findElement(By.id("memberSearchInput")).clear();
         findElement(By.id("memberSearchInput")).sendKeys(keyword);
         try {
@@ -56,7 +56,7 @@ public class ContactPage extends BasePage {
         select.getFirstSelectedOption().click();
         select.selectByIndex(0);*/
 
-        //先确认可以点击的，因为样式发生变化，要WebDriverWait等待元素出来可点击
+        //先确认可以点击的，因为样式发生变化，要WebDriverWait等待元素出来可点击,有个瞬时的动态变化
         Thread.sleep(3000);
         waitClickable(By.cssSelector(".ww_checkbox"), 3);
         List<WebElement> elements = driver.findElements(By.cssSelector(".ww_checkbox"));
@@ -78,15 +78,17 @@ public class ContactPage extends BasePage {
     // css=.ww_operationBar:nth-child(1) .ww_btn_PartDropdown_left
     //failed: waiting for visibility of element located by By.partialLinkText:ww_btn_PartDropdown_left (tried for 5 second(s) with 500 milliseconds interval)
     //4-批量导入
-    public void ImportFromfile(){
+    public void ImportFromFile(){
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        findElement(By.partialLinkText("ww_btn_PartDropdown_left")).click();
+        //<div class="ww_btn_PartDropdown_left">批量导入/导出</div> partialLinkText这个是啥
+        findElement(By.partialLinkText("批量导入/导出")).click();
         findElement(By.linkText("文件导入")).click();
-        findElement(By.id("js_upload_file_input")).sendKeys("D:\\software\\yidongduan\\selenium\\通讯录批量导入模板.xlsx");
+        //上传的时候不能有wait时间
+        findElement(By.id("js_upload_file_input"),0).sendKeys("D:\\software\\yidongduan\\selenium\\通讯录批量导入模板.xlsx");
         //id=submit_csv 点击导入按钮
         findElement(By.id("submit_csv")).click();
         findElement(By.linkText("完成")).click();
