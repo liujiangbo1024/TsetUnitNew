@@ -8,7 +8,7 @@
     <artifactId>testunit</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-        <dependency>
+<!--        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
@@ -18,6 +18,35 @@
                     <artifactId>hamcrest-core</artifactId>
                 </exclusion>
             </exclusions>
+            <scope>test</scope>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-launcher -->
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <version>1.5.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- 支持junit5的-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- 支持junit3、和junit4的-->
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <version>5.5.2</version>
             <scope>test</scope>
         </dependency>
         <!--引入hamcrest-->
@@ -54,6 +83,9 @@
             <artifactId>java-client</artifactId>
             <version>7.0.0</version>
         </dependency>
+
+
+
     </dependencies>
 
     <build>

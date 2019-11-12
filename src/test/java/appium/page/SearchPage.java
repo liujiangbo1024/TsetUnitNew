@@ -24,7 +24,9 @@ public class SearchPage extends BasePage {
     public SearchPage search(String keyWord){
 
         App.driver.findElement(inputBox).sendKeys(keyWord);
-        findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.TextView[1]")).click();
+        //com.xueqiu.android:id/name
+        //findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.TextView[1]")).click();
+        findElementAndClick(By.id("com.xueqiu.android:id/name"));//找到多个，点击第一个
         return this;
     }
 
@@ -39,4 +41,11 @@ public class SearchPage extends BasePage {
         findElementAndClick(By.id("com.xueqiu.android:id/action_close"));
         return new App();
     }
+    //点击“加自选”
+    public SearchPage select(){
+        findElementAndClick(By.id("com.xueqiu.android:id/follow_btn"));
+        return new SearchPage();
+
+    }
+
 }
