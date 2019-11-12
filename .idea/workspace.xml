@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f1fe09-c7d2-4db6-9d20-cfdc676a6ce9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/appium/page/StockPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/appium/testcase/TestStock.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/page/App.java" afterPath="$PROJECT_DIR$/src/test/java/appium/page/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/page/BasePage.java" afterPath="$PROJECT_DIR$/src/test/java/appium/page/BasePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/page/SearchPage.java" afterPath="$PROJECT_DIR$/src/test/java/appium/page/SearchPage.java" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/App.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/page/App.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/SearchPage.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/page/SearchPage.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/appium/testcase/TestSearch.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/testcase/TestSearch.class" />
-      <change beforePath="$PROJECT_DIR$/testunitnew.iml" afterPath="$PROJECT_DIR$/testunitnew.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -754,7 +739,7 @@
       <workItem from="1572619458450" duration="5290000" />
       <workItem from="1572661129348" duration="81571000" />
       <workItem from="1573179362631" duration="6848000" />
-      <workItem from="1573264578238" duration="48533000" />
+      <workItem from="1573264578238" duration="48586000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1572507076597</created>
@@ -847,7 +832,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572706024599</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="appuim 1">
+      <created>1573565980576</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573565980576</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -883,7 +875,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177483000" />
+    <option name="totallyTimeSpent" value="177536000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -971,7 +963,8 @@
     <MESSAGE value="mockito" />
     <MESSAGE value="selenium add" />
     <MESSAGE value="selenium add2" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium add2" />
+    <MESSAGE value="appuim 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="appuim 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
