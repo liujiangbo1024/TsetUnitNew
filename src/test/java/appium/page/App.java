@@ -10,7 +10,6 @@
 package appium.page;
 
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -25,8 +24,17 @@ import java.util.concurrent.TimeUnit;
  */
 public class App  extends  BasePage{
 
+    private static App app;
+    //改成单例的模式
+    public static App getInstance(){
+        if(app==null){
+            app=new App();
+        }
+        return app;
+    }
+
     //使用static
-    public static void start() throws MalformedURLException {
+    public  void start() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "android");
         //desiredCapabilities.setCapability("deviceName", "emulator-5554");
@@ -45,15 +53,22 @@ public class App  extends  BasePage{
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);//不添加隐式等待这个雪球APP进不去
 
       //  handleAlter();//处理那些乱七八糟额弹框
-       //处理进入页面前的等待:显示等待
-        new WebDriverWait(driver,30).until(x->{
-            System.out.println(System.currentTimeMillis());
-            String xml=driver.getPageSource();
-            Boolean exist=xml.contains("home_search")||xml.contains("image_cancel");
+       //处理进入页面前的等待:显示等待 升级框处理
+        try{
+        long start=System.currentTimeMillis();
+        new WebDriverWait(driver,30).until(x-> {
+            String xml = driver.getPageSource();
+            Boolean exist = xml.contains("home_search") || xml.contains("image_cancel");
+            long end = System.currentTimeMillis();
+            System.out.println((end - start) / 1000);
             System.out.println(exist);
             return exist;
 
-        });
+        });}catch (Exception e){
+            handleAlter();
+            e.printStackTrace();
+        }
+
 
     /*    new WebDriverWait(driver,30).
                 until(ExpectedConditions.visibilityOfElementLocated(By.id("com.xueqiu.android:id/home_search")));*/
@@ -64,18 +79,21 @@ public class App  extends  BasePage{
             ads.get(0).click();
         }*/
 
+
     }
 
     //点击搜索框
-    public static SearchPage toSearch() {
-         findElementAndClick(By.id("com.xueqiu.android:id/home_search"));
+    public  SearchPage toSearch() {
+          parseSteps("/appium/page/app.yaml","toSearch");
+         //findElementAndClick(By.id("com.xueqiu.android:id/home_search"));
         return new SearchPage();
 
     }
 
     //自选股票
-    public static  StockPage toStock(){
-        findElementAndClick(By.xpath("//*[contains(@resource-id, 'tab_name') and @text='自选']"));
+    public   StockPage toStock(){
+        //findElementAndClick(By.xpath("//*[contains(@resource-id, 'tab_name') and @text='自选']"));
+        parseSteps("/appium/page/app.yaml","toStock");
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {

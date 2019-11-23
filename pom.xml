@@ -7,6 +7,10 @@
     <groupId>com.test.cn</groupId>
     <artifactId>testunit</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <dependencies>
 <!--        <dependency>
             <groupId>junit</groupId>
@@ -42,6 +46,14 @@
             <version>5.5.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- 支持junit3、和junit4的-->
         <dependency>
             <groupId>org.junit.vintage</groupId>
@@ -84,12 +96,41 @@
             <version>7.0.0</version>
         </dependency>
 
+        <!-- 引入fastjson依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.12</version>
+        </dependency>
 
+        <!--读取json依赖的包 jackson-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+        <!--读取yaml文件的依赖的包-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.10.1</version>
+        </dependency>
 
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.7.1</version>
+                <configuration>
+               <!--     <excludes>
+                        <exclude>some test to exclude here</exclude>
+                    </excludes>-->
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -107,7 +148,7 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-                    <execution>
+                  <!--  <execution>
                         <id>default-check</id>
                         <goals>
                             <goal>check</goal>
@@ -126,7 +167,7 @@
                                 </rule>
                             </rules>
                         </configuration>
-                    </execution>
+                    </execution>-->
                 </executions>
             </plugin>
             <plugin>
@@ -135,6 +176,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <encoding>utf8</encoding>
                 </configuration>
             </plugin>
         </plugins>
