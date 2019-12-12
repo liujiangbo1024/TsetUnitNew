@@ -10,6 +10,7 @@
 package appium.page;
 
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -42,6 +43,7 @@ public class App  extends  BasePage{
         //127.0.0.1:7555
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");//app的入口
+       //权限弹框的处理
         desiredCapabilities.setCapability("noReset",false);
         desiredCapabilities.setCapability("autoGrantPermissions",true);
         /* noreset：以下2种方式都可以 避免权限弹框
@@ -53,7 +55,7 @@ public class App  extends  BasePage{
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);//不添加隐式等待这个雪球APP进不去
 
       //  handleAlter();//处理那些乱七八糟额弹框
-       //处理进入页面前的等待:显示等待 升级框处理
+       //处理进入页面前的等待:显示等待 升级框处理，也没点击呀？等待30s直到出现搜索或者升级框
         try{
         long start=System.currentTimeMillis();
         new WebDriverWait(driver,30).until(x-> {
@@ -92,8 +94,9 @@ public class App  extends  BasePage{
 
     //自选股票
     public   StockPage toStock(){
-        //findElementAndClick(By.xpath("//*[contains(@resource-id, 'tab_name') and @text='自选']"));
-        parseSteps("/appium/page/app.yaml","toStock");
+        handleAlter();
+        findElementAndClick(By.xpath("//*[contains(@resource-id, 'tab_name') and @text='自选']"));
+       // parseSteps("/appium/page/app.yaml","toStock");
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {

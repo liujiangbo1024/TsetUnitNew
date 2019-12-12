@@ -82,6 +82,7 @@ public class TestSearch {
     public float price;
 
     @Before
+    //每次搜索之前，要先进入搜索页面
     public void before(){
         searchPage=App.getInstance().toSearch();
     }
@@ -92,6 +93,7 @@ public class TestSearch {
     }
 
     @After
+    //每次执行之后，点击一起取消，回到app home页面
     public void after(){
         searchPage.cancel();
     }

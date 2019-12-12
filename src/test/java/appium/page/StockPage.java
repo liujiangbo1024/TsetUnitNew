@@ -23,18 +23,18 @@ public class StockPage extends BasePage{
 
     //删除既有的的股票
     public StockPage deleteAll(){
-/*      findElementAndClick(By.id("com.xueqiu.android:id/edit_group"));//点击
+      findElementAndClick(By.id("com.xueqiu.android:id/edit_group"));//点击
         findElementAndClick(By.id("com.xueqiu.android:id/check_all"));//全选
         findElementAndClick(By.id("com.xueqiu.android:id/cancel_follow"));//取消关注
         findElementAndClick(By.id("com.xueqiu.android:id/md_buttonDefaultPositive"));//确定
-        findElementAndClick(By.id("com.xueqiu.android:id/action_close"));//完成*/
+        findElementAndClick(By.id("com.xueqiu.android:id/action_close"));//完成
 
-        parseSteps("deleteAll");
+       // parseSteps("deleteAll");
         return this;
     }
     //获取所有股票
     public List<String> getAllStocks() {
-        handleAlter();
+        handleAlter();//获取股票前，出现手势弹框，显示的处理弹框
         List<String> stocks = new ArrayList<>();
         driver.findElements(By.id("com.xueqiu.android:id/portfolio_stockName")).forEach(element -> {
                     stocks.add(element.getText());

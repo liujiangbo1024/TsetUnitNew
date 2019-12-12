@@ -56,13 +56,14 @@ public class TestStock {
         assertThat(stockPage.addDefaultSelectedStocks().getAllStocks().size(),greaterThanOrEqualTo(6));
     }
 
+    //显示控制用例的执行顺序
     @Order(200)
     @ParameterizedTest
     @MethodSource("data")
     public void addStock(String code, String name) throws IOException {
 
-        stockPage.toSearch().search(code).select().cancel();
-        assertThat(stockPage.getAllStocks(), hasItem(name));
+        stockPage.toSearch().search(code).select().cancel();//有页面的跳转--从股票页面--跳转到查询页面--添加到自选-取消回到股票列表页面
+        assertThat(stockPage.getAllStocks(), hasItem(name));//判断是否有刚添加的股票
     }
 
     public static Stream<Arguments> data() {

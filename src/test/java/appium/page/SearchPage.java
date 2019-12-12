@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.HashMap;
 
 /**
- * @Description  :  TODO
+ * @Description  :  查询页面
  * @author       :  liujiangbo
  * @Creation Date:  2019-11-09 10:27
  */
@@ -43,7 +43,7 @@ public class SearchPage extends BasePage {
         return Float.valueOf(getResults().get("price").toString());
     }
 
-    //输入的那个内容每次输入后，清除
+    //输入的那个内容每次输入后，清除，取消后回到App页面
     public App cancel(){
         //findElementAndClick(By.id("com.xueqiu.android:id/action_close"));
         //parseSteps("cancel");
@@ -53,7 +53,7 @@ public class SearchPage extends BasePage {
     }
     //点击“加自选”
     public SearchPage select(){
-        //findElementAndClick(By.id("com.xueqiu.android:id/follow_btn"));
+        //findElementAndClick(By.id("com.xueqiu.android:id/follow_btn")); //点击添加自选
         parseSteps("select");
         return new SearchPage();
 

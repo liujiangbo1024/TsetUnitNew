@@ -85,8 +85,9 @@ public class BasePage {
         }
     }
 
-
+//findEelement
     public static List<WebElement> findElemets(By by){
+
         return driver.findElements(by);
 
 
