@@ -1,6 +1,0 @@
-#surefire
-#Thu Nov 14 14:51:40 CST 2019
-user.dir=E\:\\javascripts\\study\\testunitnew
-localRepository=D\:\\maven_repository
-basedir=E\:\\javascripts\\study\\testunitnew
-test=TestSearch
