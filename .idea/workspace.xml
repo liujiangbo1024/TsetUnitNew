@@ -3,97 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56f1fe09-c7d2-4db6-9d20-cfdc676a6ce9" name="Default" comment="appuim 12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appium/page/BasePage.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appium/page/SearchPage.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appium/page/StockPage.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appium/page/app.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appium/testcase/TestSearch.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mock/Division.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mock/Division2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/mock/Division.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/mock/Division.java.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/mock/Division2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/mock/Division2.java.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/mock/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/mock/index.source.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-appium.testcase.TestSearch.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-mock.DivisionTest1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/appium.testcase.TestSearch.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/mock.DivisionTest1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire1615355869520128498tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire1909082505274395997tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire2301567568621539505tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire283127372656348432tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire4581330902406019439tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire868064322464396188tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/TestCaseStepsUnit.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/TestDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/TestResources$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/TestResources.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/BasePage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/PageObjectElement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/PageObjectMethod.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/PageObjectModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/SearchPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/page/StockPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/testcase/TestSearch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/testcase/TestStock.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mock/DivisionTest1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mock/MockTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/BasePage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/Broadcast.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/MaterialLibraryPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/test1/FirstSearchSelenium.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/DefaultSuiteTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestGroupMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestMaterialLibrary.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/TestJunit4Demo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/TestJunit4DemoChild.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/TestJunit4DemoChild2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/TestSuite.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/group/FastGroup.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/group/SlowGroup.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/group/TestGroupSuit.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/group/TestGroups.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/param/TestDataDriver.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/xUnit/param/TestParam.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/testunit-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/testunit-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/testunit-1.0-SNAPSHOT/META-INF/maven/com.test.cn/testunit/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/testunit-1.0-SNAPSHOT/META-INF/maven/com.test.cn/testunit/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/testunit-1.0-SNAPSHOT/app/TestStock.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/testunit-1.0-SNAPSHOT/mock/Division.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/testunit-1.0-SNAPSHOT/mock/Division2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appium/abbbtest" afterPath="$PROJECT_DIR$/src/main/resources/appium/abbbtest" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -210,8 +120,8 @@
       <file leaf-file-name="abbbtest" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/appium/abbbtest">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+            <state relative-caret-position="22">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -351,7 +261,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -798,7 +708,7 @@
       <workItem from="1574476263652" duration="47361000" />
       <workItem from="1575337250564" duration="582000" />
       <workItem from="1575610905630" duration="3596000" />
-      <workItem from="1576546856406" duration="3735000" />
+      <workItem from="1576546856406" duration="4170000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1572507076597</created>
@@ -941,7 +851,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317083000" />
+    <option name="totallyTimeSpent" value="317518000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -953,11 +863,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4748538" sideWeight="0.24250536" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32748538" sideWeight="0.2146681" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10117773" sideWeight="0.4898305" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -973,9 +882,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35244924" sideWeight="0.8151351" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.78864866" order="11" side_tool="false" content_ui="tabs" x="2485" y="461" width="1061" height="526" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32748538" sideWeight="0.7853319" order="11" side_tool="false" content_ui="tabs" x="2485" y="461" width="1061" height="526" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4748538" sideWeight="0.7574946" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4748538" sideWeight="0.7574946" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20342612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Duplication Code Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.49357602" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1428,8 +1337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/appium/abbbtest">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="22">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
