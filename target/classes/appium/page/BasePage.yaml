@@ -1,0 +1,12 @@
+methods:
+  search:
+    steps:
+   # - {id: xxx,action: click}:默认click可以不写
+    - id: home_search
+    - id: search_input_text
+      send: PDD
+    - id: name
+    - xpath: //*[@text='PDD']
+  cancel:
+   steps:
+    - id: xxx
