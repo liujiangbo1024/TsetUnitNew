@@ -41,7 +41,7 @@ public class App  extends  BasePage{
         //desiredCapabilities.setCapability("deviceName", "emulator-5554");
         desiredCapabilities.setCapability("deviceName", "127.0.0.1:7555");
         //127.0.0.1:7555
-        //使用jenkins 不同设备运行s
+        //使用jenkins 不同设备运行设备
         desiredCapabilities.setCapability("udid",System.getenv("UDID"));
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");//app的入口
