@@ -1,20 +1,32 @@
 package service.User.testcase;
 
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.github.mustachejava.DefaultMustacheFactory;
 import com.github.mustachejava.Mustache;
 import com.github.mustachejava.MustacheFactory;
-import io.restassured.response.Response;
-
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.MethodSource;
 import service.User.api.User;
-import service.department.Work;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
+import java.util.stream.Stream;
 
-import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.not;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class TestUser {
 
@@ -109,5 +121,101 @@ public class TestUser {
         user.cloneUser(userid,data).then().body("errcode",equalTo(0));
         user.delete(userid).then().body("errcode",equalTo(0));
         user.get(userid).then().body("errcode",not(equalTo(0)));
+    }
+    /*参数化，测试用例的csv*/
+    @ParameterizedTest
+    @CsvSource({
+            "abc,abc",
+            "mn,mn",
+            "111,222"
+    })
+    public void deleteByParams(String name,String userid){
+        String nameNew = name;
+        if(userid.isEmpty()) {
+            userid = "a131_" + System.currentTimeMillis();
+        }
+
+        HashMap<String,Object> data=new HashMap<>();
+        data.put("name",nameNew);
+        data.put("department",new int[]{4});
+        data.put("mobile",String.valueOf(System.currentTimeMillis()).substring(0,11));
+        //data.put("emial","123456@qq.com");
+
+        User user=new User();
+        user.cloneUser(userid,data).then().body("errcode",equalTo(0));
+        user.delete(userid).then().body("errcode",equalTo(0));
+        user.get(userid).then().body("errcode",not(equalTo(0)));
+    }
+
+    /*外部数据源,测试用例的参数化 csv 文件 resources放在resource是下和我的类同级*/
+    @ParameterizedTest
+    @CsvFileSource(resources = "TestUser.csv")
+    public void deleteByParamsA(String name,String userid){
+        String nameNew = name;
+        if(userid.isEmpty()) {
+            userid = "a131_" + System.currentTimeMillis();
+        }
+
+        HashMap<String,Object> data=new HashMap<>();
+        data.put("name",nameNew);
+        data.put("department",new int[]{4});
+        data.put("mobile",String.valueOf(System.currentTimeMillis()).substring(0,11));
+        //data.put("emial","123456@qq.com");
+
+        User user=new User();
+        user.cloneUser(userid,data).then().body("errcode",equalTo(0));
+        user.delete(userid).then().body("errcode",equalTo(0));
+        user.get(userid).then().body("errcode",not(equalTo(0)));
+    }
+
+    /*比较复杂的数据使用MethodSource,数据格式不受限制*/
+    @ParameterizedTest
+    @MethodSource("deleteByParamsFromYamlData")
+    public void deleteByParamsFromYaml(String name,String userid,List<Integer> departs){
+        String nameNew = name;
+        if(userid.isEmpty()) {
+            userid = "a131_" + System.currentTimeMillis();
+        }
+        if(departs==null){
+            departs= Arrays.asList(4);
+        }
+
+        HashMap<String,Object> data=new HashMap<>();
+        data.put("name",nameNew);
+        data.put("department",departs);
+        data.put("mobile",String.valueOf(System.currentTimeMillis()).substring(0,11));
+        //data.put("emial","123456@qq.com");
+
+        User user=new User();
+        user.cloneUser(userid,data).then().body("errcode",equalTo(0));
+        user.delete(userid).then().body("errcode",equalTo(0));
+        user.get(userid).then().body("errcode",not(equalTo(0)));
+    }
+
+    /*https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests  参考*/
+    static Stream<Arguments> deleteByParamsFromYamlData() {
+
+        ObjectMapper mapper=new ObjectMapper(new YAMLFactory());
+
+        TypeReference<List<HashMap<String, Object>>> typeRef = new TypeReference<List<HashMap<String, Object>>>() {};
+        List<HashMap<String, Object>> data;
+        try {
+
+            //将yaml中的文件转化成   List<HashMap<String, Object>>  对象
+           data= mapper.readValue(TestUser.class.getResourceAsStream("/service/User/testcase/TestUser.yaml"), typeRef);
+            ArrayList<Arguments> results=new ArrayList<>();
+            data.forEach(map->{
+                results.add(arguments(
+                        map.get("name").toString(),
+                        map.get("userid").toString(),
+                        map.get("departs")));
+            });
+            return results.stream();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        return Stream.of();
     }
 }

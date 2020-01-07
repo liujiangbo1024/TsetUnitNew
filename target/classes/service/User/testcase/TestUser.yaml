@@ -1,0 +1,12 @@
+- name: 111
+  userid: 111
+  departs: [1, 4]
+- name: abc
+  userid: abc
+- name: 333
+  userid: 333
+- name: qwe
+  userid: qwe
+- name: nihao
+  userid: nihao
+

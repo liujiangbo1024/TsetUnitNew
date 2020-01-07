@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f1fe09-c7d2-4db6-9d20-cfdc676a6ce9" name="Default" comment="appuim 12">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/service/User/api/UserApi.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectMethodModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/api/UserApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUserApi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.yaml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mock/Division.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mock/Division2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/TestResources.java" afterPath="$PROJECT_DIR$/src/test/java/appium/TestResources.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java" afterPath="$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/api/ApiObjectMethodModel.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/api/ApiObjectMethodModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/api/ApiObjectModel.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/api/ApiObjectModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/api/BaseApi.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/api/BaseApi.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/api/UserApi.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/api/UserApi.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestUser.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestUser.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,71 +36,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PageObjectModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/PageObjectModel.java">
+      <file leaf-file-name="TestUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="469">
+              <caret line="206" column="31" lean-forward="true" selection-start-line="206" selection-start-column="31" selection-end-line="206" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractPipeline.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/stream/AbstractPipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/SearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/StockPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/testcase/TestSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestStock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/testcase/TestStock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-433">
-              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserApi.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/service/User/api/UserApi.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiObjectMethodModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectMethodModel.java">
+      <file leaf-file-name="ObjectMapper.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../maven_property/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
-              <caret line="47" column="85" lean-forward="false" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
+              <caret line="3245" column="17" lean-forward="false" selection-start-line="3245" selection-start-column="17" selection-end-line="3245" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,11 +70,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseApi.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestUser.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSearch.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/appium/testcase/TestSearch.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResources.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appium/TestResources.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseApi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="354">
+              <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,16 +112,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiObjectModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectModel.java">
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="147" column="8" lean-forward="false" selection-start-line="147" selection-start-column="8" selection-end-line="151" selection-end-column="74" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,11 +125,21 @@
       <file leaf-file-name="UserApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/UserApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="359">
+              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestUserApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUserApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,9 +180,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/service/User/api/UserApi.yaml" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUserApi.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/api/UserApi.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectMethodModel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.csv" />
+        <option value="$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.yaml" />
+        <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appium/TestResources.java" />
       </list>
     </option>
   </component>
@@ -293,7 +298,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
@@ -593,7 +616,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestUserApi">
+  <component name="RunManager" selected="JUnit.TestResources.readFile">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -642,8 +665,8 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="TestResources.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="appium.*" />
           <option name="ENABLED" value="true" />
@@ -653,83 +676,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="appium" />
-      <option name="MAIN_CLASS_NAME" value="appium.TestDemo" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="appium.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testunitnew" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="appium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="appium.testcase.TestSearch" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="appium.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testunitnew" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="appium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="appium.testcase.TestStock" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestStock.addDefaultSelectedStocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="appium.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testunitnew" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="appium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="appium.testcase.TestStock" />
-      <option name="METHOD_NAME" value="addDefaultSelectedStocks" />
+      <option name="MAIN_CLASS_NAME" value="appium.TestResources" />
+      <option name="METHOD_NAME" value="readFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -742,7 +690,32 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestUserApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.User.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testunitnew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.User.testcase" />
+      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestUser" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestUserApi.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="service.User.testcase.*" />
@@ -754,8 +727,58 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service.User.testcase" />
       <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestUserApi" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestUser.deleteByParamsFromYaml (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.User.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testunitnew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.User.testcase" />
+      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestUser" />
+      <option name="METHOD_NAME" value="deleteByParamsFromYaml(java.lang.String,java.lang.String,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestUser.deleteByParamsFromYaml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.User.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testunitnew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.User.testcase" />
+      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestUser" />
+      <option name="METHOD_NAME" value="deleteByParamsFromYaml(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -830,19 +853,19 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSearch" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestStock" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDemo" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestStock.addDefaultSelectedStocks" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestUserApi" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestUser.deleteByParamsFromYaml" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestUser.deleteByParamsFromYaml (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestUser" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestUserApi.get" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestResources.readFile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestUserApi" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSearch" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestStock.addDefaultSelectedStocks" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestStock" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestDemo" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestResources.readFile" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestUserApi.get" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestUser" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestUser.deleteByParamsFromYaml (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestUser.deleteByParamsFromYaml" />
       </list>
     </recent_temporary>
   </component>
@@ -884,7 +907,7 @@
       <workItem from="1575610905630" duration="3596000" />
       <workItem from="1576546856406" duration="7484000" />
       <workItem from="1577513239032" duration="2661000" />
-      <workItem from="1578297150132" duration="11150000" />
+      <workItem from="1578297150132" duration="20665000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1572507076597</created>
@@ -1002,12 +1025,36 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="TestResources_readFile - 2020.01.07 at 18h 22m 04s.xml">
+      <configuration name="TestResources.readFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser - 2020.01.07 at 18h 08m 50s.xml">
+      <configuration name="TestUser" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestUserApi - 2020.01.07 at 10h 46m 31s.xml">
       <configuration name="TestUserApi" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestUserApi_get - 2020.01.07 at 18h 10m 30s.xml">
+      <configuration name="TestUserApi.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_deleteByParams - 2020.01.07 at 14h 08m 03s.xml">
+      <configuration name="TestUser.deleteByParams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_deleteByParamsA - 2020.01.07 at 16h 42m 13s.xml">
+      <configuration name="TestUser.deleteByParamsA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_deleteByParamsFromYaml - 2020.01.07 at 16h 56m 42s.xml">
+      <configuration name="TestUser.deleteByParamsFromYaml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_deleteByParamsFromYaml - 2020.01.07 at 17h 50m 45s.xml">
+      <configuration name="TestUser.deleteByParamsFromYaml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_deleteByParamsFromYaml_(1) - 2020.01.07 at 18h 02m 14s.xml">
+      <configuration name="TestUser.deleteByParamsFromYaml (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11150000" />
+    <option name="totallyTimeSpent" value="20665000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1041,7 +1088,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34662238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22430407" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Duplication Code Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1163,52 +1210,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/page/Broadcast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven_property/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="3237" column="17" lean-forward="false" selection-start-line="3237" selection-start-column="17" selection-end-line="3237" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUserApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1240,14 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3190">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/PageObjectElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
@@ -1260,14 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/PageObjectModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1312,10 +1301,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/PageObjectModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#618#619#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectMethodModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/page/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="147" column="8" lean-forward="false" selection-start-line="147" selection-start-column="8" selection-end-line="151" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_property/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="3245" column="17" lean-forward="false" selection-start-line="3245" selection-start-column="17" selection-end-line="3245" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/stream/AbstractPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUserApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/UserApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="359">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appium/testcase/TestSearch.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/TestResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="206" column="31" lean-forward="true" selection-start-line="206" selection-start-column="31" selection-end-line="206" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1324,30 +1435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectMethodModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="47" column="85" lean-forward="false" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
+        <state relative-caret-position="354">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

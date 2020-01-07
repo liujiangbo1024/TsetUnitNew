@@ -22,7 +22,7 @@ import java.io.IOException;
 import java.util.HashMap;
 
 /**
- * @Description  :  从外面读取内容
+ * @Description  :  从yaml文件外面读取内容
  * @author       :  liujiangbo
  * @Creation Date:  2019-11-14 15:32
  */

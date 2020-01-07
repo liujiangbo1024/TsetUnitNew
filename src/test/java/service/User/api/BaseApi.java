@@ -32,6 +32,7 @@ public class BaseApi {
         //this.params 成员变量
     }
 
+    /*将path中的yaml文件中的内容读取出来转成java对象*/
     public Response parseSteps() {
         String method = Thread.currentThread().getStackTrace()[2].getMethodName();
         System.out.println("method======="+method);
