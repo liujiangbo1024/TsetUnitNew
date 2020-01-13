@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f1fe09-c7d2-4db6-9d20-cfdc676a6ce9" name="Default" comment="appuim 12">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/DemoFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestBase64.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestHttp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestMock.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestMockNew.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2_1.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/TestResources.java" afterPath="$PROJECT_DIR$/src/test/java/appium/TestResources.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/User/api/User.java" afterPath="$PROJECT_DIR$/src/test/java/service/User/api/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java" afterPath="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appium/TestResources.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/TestResources.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestUser$1.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestUser$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestUser.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestHttp.class" afterPath="$PROJECT_DIR$/target/test-classes/service/User/testcase/TestHttp.class" />
       <change beforePath="$PROJECT_DIR$/testunitnew.iml" afterPath="$PROJECT_DIR$/testunitnew.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java">
+      <file leaf-file-name="TestHttp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestHttp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="352">
+              <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +43,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestHttp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestHttp.java">
+      <file leaf-file-name="TestMockNew.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestMockNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="349">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultHttpClientConnectionOperator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../maven_property/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/org/apache/http/impl/conn/DefaultHttpClientConnectionOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="1261" column="5" lean-forward="true" selection-start-line="1261" selection-start-column="5" selection-end-line="1261" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="1079" column="0" lean-forward="false" selection-start-line="1079" selection-start-column="0" selection-end-line="1079" selection-end-column="0" />
+              <folding>
+                <element signature="e#45518#45519#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +102,7 @@
       <file leaf-file-name="TestBase64.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestBase64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
+            <state relative-caret-position="154">
               <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,7 +114,7 @@
       <file leaf-file-name="Base64.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Base64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="1276">
               <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="25" />
               <folding>
                 <element signature="e#2577#2578#0" expanded="true" />
@@ -90,33 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="564" column="11" lean-forward="false" selection-start-line="564" selection-start-column="11" selection-end-line="564" selection-end-column="11" />
-              <folding>
-                <element signature="e#20727#20728#0" expanded="true" />
-                <element signature="e#20771#20772#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../maven_property/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2-sources.jar!/io/restassured/builder/ResponseBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="209" column="20" lean-forward="false" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DemoFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/DemoFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="374">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,36 +138,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="154" column="32" lean-forward="false" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="149" column="21" lean-forward="false" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterContext.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../maven_property/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2-sources.jar!/io/restassured/filter/FilterContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="12" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -204,12 +197,14 @@
         <option value="$PROJECT_DIR$/src/test/java/appium/TestResources.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/api/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/DemoFilter.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/Base64.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/TestHttp.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/TestBase64.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/TestMockNew.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/User/testcase/TestMock.java" />
       </list>
     </option>
   </component>
@@ -271,10 +266,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,58 +307,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testunitnew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testunitnew" type="b2602c69:ProjectViewProjectNode" />
@@ -464,6 +405,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -520,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestHttp.demoBase64Filter">
+  <component name="RunManager" selected="JUnit.TestMock.stub">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -543,31 +486,6 @@
       <method>
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="TestBase64.testBase64" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="service.User.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testunitnew" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="service.User.testcase" />
-      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestBase64" />
-      <option name="METHOD_NAME" value="testBase64" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="TestCaseStepsUnit.demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
@@ -619,10 +537,10 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestHttp.demoFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMockNew.stub (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="service.User.testcase.*" />
+          <option name="PATTERN" value="service.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -630,8 +548,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service.User.testcase" />
-      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestHttp" />
-      <option name="METHOD_NAME" value="demoFilter" />
+      <option name="MAIN_CLASS_NAME" value="service.mock.TestMockNew" />
+      <option name="METHOD_NAME" value="stub" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -644,7 +562,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestHttp.filterAfterResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMockNew.stub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="service.User.testcase.*" />
@@ -655,8 +573,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service.User.testcase" />
-      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestHttp" />
-      <option name="METHOD_NAME" value="filterAfterResponse" />
+      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestMockNew" />
+      <option name="METHOD_NAME" value="stub" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -669,7 +587,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestHttp.test_jiemi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMock.stub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="service.User.testcase.*" />
@@ -680,8 +598,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service.User.testcase" />
-      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestHttp" />
-      <option name="METHOD_NAME" value="test_jiemi" />
+      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestMock" />
+      <option name="METHOD_NAME" value="stub" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestMock.testmock1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.User.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testunitnew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.User.testcase" />
+      <option name="MAIN_CLASS_NAME" value="service.User.testcase.TestMock" />
+      <option name="METHOD_NAME" value="testmock1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -757,19 +700,19 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestHttp.filterAfterResponse" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestHttp.demoFilter" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestHttp.demoBase64Filter" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestHttp.test_jiemi" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestBase64.testBase64" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestHttp.demoBase64Filter" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestMock.testmock1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestMock.stub" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestMockNew.stub" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestMockNew.stub (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestHttp.demoBase64Filter" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestBase64.testBase64" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestHttp.test_jiemi" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestHttp.demoFilter" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestHttp.filterAfterResponse" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestMock.stub" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestMockNew.stub" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestMockNew.stub (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestMock.testmock1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestHttp.demoBase64Filter" />
       </list>
     </recent_temporary>
   </component>
@@ -812,7 +755,8 @@
       <workItem from="1576546856406" duration="7484000" />
       <workItem from="1577513239032" duration="2661000" />
       <workItem from="1578297150132" duration="30935000" />
-      <workItem from="1578550085438" duration="14249000" />
+      <workItem from="1578550085438" duration="18294000" />
+      <workItem from="1578911660374" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1572507076597</created>
@@ -930,39 +874,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBase64_testBase64 - 2020.01.13 at 15h 26m 10s.xml">
-      <configuration name="TestBase64.testBase64" configurationId="JUnit" />
+    <history-entry file="TestMockNew_stub - 2020.01.13 at 18h 41m 48s.xml">
+      <configuration name="TestMockNew.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBase64_testBase64 - 2020.01.13 at 15h 34m 35s.xml">
-      <configuration name="TestBase64.testBase64" configurationId="JUnit" />
+    <history-entry file="TestMockNew_stub - 2020.01.13 at 18h 42m 11s.xml">
+      <configuration name="TestMockNew.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 14h 53m 27s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMockNew_stub - 2020.01.13 at 18h 44m 30s.xml">
+      <configuration name="TestMockNew.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 14h 54m 07s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMockNew_stub - 2020.01.13 at 18h 45m 15s.xml">
+      <configuration name="TestMockNew.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 15h 06m 43s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMockNew_stub - 2020.01.13 at 18h 58m 08s.xml">
+      <configuration name="TestMockNew.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 15h 07m 11s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMockNew_stub_(1) - 2020.01.13 at 18h 50m 30s.xml">
+      <configuration name="TestMockNew.stub (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 15h 08m 50s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMock_stub - 2020.01.13 at 18h 36m 39s.xml">
+      <configuration name="TestMock.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 15h 09m 16s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMock_stub - 2020.01.13 at 18h 37m 16s.xml">
+      <configuration name="TestMock.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 15h 35m 24s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMock_stub - 2020.01.13 at 18h 38m 44s.xml">
+      <configuration name="TestMock.stub" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHttp_demoBase64Filter - 2020.01.13 at 15h 37m 15s.xml">
-      <configuration name="TestHttp.demoBase64Filter" configurationId="JUnit" />
+    <history-entry file="TestMock_testmock1 - 2020.01.13 at 17h 29m 37s.xml">
+      <configuration name="TestMock.testmock1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45184000" />
+    <option name="totallyTimeSpent" value="50645000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -993,11 +937,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.358804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35840708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22698073" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22965738" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Duplication Code Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1084,60 +1028,15 @@
           </properties>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/UserApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/service/User/api/user.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/service/User/api/UserApi.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/service/User/testcase/TestUser.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/BaseApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/User/api/ApiObjectMethodModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-314">
           <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="554" column="13" lean-forward="false" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
           <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="147" column="8" lean-forward="false" selection-start-line="147" selection-start-column="8" selection-end-line="151" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,9 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,9 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,7 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,17 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="149" column="21" lean-forward="false" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1440,7 +1302,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../maven_property/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2-sources.jar!/io/restassured/builder/ResponseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="3894">
           <caret line="209" column="20" lean-forward="false" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
           <folding />
         </state>
@@ -1448,7 +1310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="264">
           <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1456,28 +1318,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/Base64.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="11462">
           <caret line="564" column="11" lean-forward="false" selection-start-line="564" selection-start-column="11" selection-end-line="564" selection-end-column="11" />
           <folding>
-            <element signature="e#20727#20728#0" expanded="true" />
-            <element signature="e#20771#20772#0" expanded="true" />
+            <element signature="e#20727#20728#0" expanded="false" />
+            <element signature="e#20771#20772#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="1276">
           <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="25" />
           <folding>
             <element signature="e#2577#2578#0" expanded="true" />
@@ -1490,7 +1345,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/DemoFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="374">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1500,7 +1355,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestBase64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="154">
           <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1510,8 +1365,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestHttp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1079" column="0" lean-forward="false" selection-start-line="1079" selection-start-column="0" selection-end-line="1079" selection-end-column="0" />
+          <folding>
+            <element signature="e#45518#45519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="1261" column="5" lean-forward="true" selection-start-line="1261" selection-start-column="5" selection-end-line="1261" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="154" column="32" lean-forward="false" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_property/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/org/apache/http/impl/conn/DefaultHttpClientConnectionOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestMockNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/User/testcase/TestMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

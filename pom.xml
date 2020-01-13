@@ -149,6 +149,14 @@
             <version>1.7.13</version>
         </dependency>
 
+        <!--wiremock的使用-->
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-jre8</artifactId>
+            <version>2.25.1</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
