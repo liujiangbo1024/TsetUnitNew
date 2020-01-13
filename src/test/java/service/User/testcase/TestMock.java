@@ -20,7 +20,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.containsString;
 
 /**
- * @Description  :  TODO
+ * @Description  :  wireMock
  * @author       :  liujiangbo
  * @Creation Date:  2020-01-13 18:57
  */
