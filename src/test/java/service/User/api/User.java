@@ -67,7 +67,7 @@ public class User {
              .extract().response();
  }
 
- //将模版数据处理成 String
+ //将模版数据处理成 String（MustacheFactory）
  public static String template(String templatePath,HashMap<String,Object> data){
      Writer writer = new StringWriter();
      MustacheFactory mf = new DefaultMustacheFactory();

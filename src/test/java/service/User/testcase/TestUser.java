@@ -192,7 +192,8 @@ public class TestUser {
         user.get(userid).then().body("errcode",not(equalTo(0)));
     }
 
-    /*https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests  参考*/
+    /*https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests
+     junit5 的参数化参考*/
     static Stream<Arguments> deleteByParamsFromYamlData() {
 
         ObjectMapper mapper=new ObjectMapper(new YAMLFactory());
