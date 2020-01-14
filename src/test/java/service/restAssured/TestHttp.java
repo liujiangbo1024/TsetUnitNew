@@ -7,13 +7,12 @@
  * @ModificationHistory Who    When    What
  * --------  ---------  --------------------------
  */
-package service.mock;
+package service.restAssured;
 
 import io.restassured.builder.ResponseBuilder;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Test;
-import service.restAssured.DemoFilter;
 
 import java.util.Base64;
 
