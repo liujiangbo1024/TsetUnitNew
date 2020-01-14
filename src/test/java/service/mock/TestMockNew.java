@@ -1,4 +1,4 @@
-package service.User.testcase;
+package service.mock;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.junit.jupiter.api.AfterAll;
