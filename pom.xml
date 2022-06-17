@@ -101,7 +101,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.12</version>
+            <version>1.2.83</version>
         </dependency>
 
         <!--读取json依赖的包 jackson-->
